@@ -3,11 +3,11 @@
 > 任何 Agent、任何電腦接手前**必讀**；收工時**必更新**。本檔只放交接必需的精簡資訊，詳細脈絡放 Obsidian（若有 L3）。
 
 ## ⏯️ 目前做到哪
-已收工：初始化＋Netlify 上線＋12 單元驗收全過。公開站 https://2026math-website2.netlify.app 可正常使用，Codex 可讀私有 repo。
+已收工：6-1＋6-2 改版（分數公式排版修正＋版本號更新）已上正式站並推上 GitHub，Codex 讀到的是新版。公開站 https://2026math-website2.netlify.app 可正常使用。
 
 ## 🚦 目前狀態
-- 公開站已上線，repo 保持私有；程式碼公開出去的只有靜態網頁檔
-- 12 單元驗收全過（2026-09-12，Playwright 開正式站逐頁檢查，僅首頁首次載入有 favicon.ico 404，不影響功能）
+- 公開站已上線（含 6-1／6-2 新版），repo 保持私有
+- 12 單元驗收全過；6-1／6-2 新版草稿驗過（主控台僅 favicon 404）
 - GitHub 私有 repo 已推，Obsidian 筆記已建
 
 ## ➡️ 下一步
@@ -24,4 +24,4 @@
 ## 🕐 最後更新
 - 時間：2026-09-12
 - 更新者：OpenCode @ DESKTOP-BN0QO3M
-- Git push：✅ 已推（收工同步完成）
+- Git push：待推（收工 commit 待 push）
