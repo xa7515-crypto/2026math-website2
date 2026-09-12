@@ -3,7 +3,7 @@
 > 任何 Agent、任何電腦接手前**必讀**；收工時**必更新**。本檔只放交接必需的精簡資訊，詳細脈絡放 Obsidian（若有 L3）。
 
 ## ⏯️ 目前做到哪
-階段一＋階段二皆完成：12 單元逐一驗收通過（線上正式站、主控台無 JS 錯誤），公開網址 https://2026math-website2.netlify.app 可正常使用。
+已收工：初始化＋Netlify 上線＋12 單元驗收全過。公開站 https://2026math-website2.netlify.app 可正常使用，Codex 可讀私有 repo。
 
 ## 🚦 目前狀態
 - 公開站已上線，repo 保持私有；程式碼公開出去的只有靜態網頁檔
@@ -24,4 +24,4 @@
 ## 🕐 最後更新
 - 時間：2026-09-12
 - 更新者：OpenCode @ DESKTOP-BN0QO3M
-- Git push：✅ 已推（12 單元驗收紀錄）
+- Git push：待推（收工改寫待 commit＋push）
