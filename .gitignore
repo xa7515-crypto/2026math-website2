@@ -7,3 +7,6 @@ credentials.*
 
 # Local Netlify folder
 .netlify
+
+# Playwright MCP local artifacts
+.playwright-mcp/
