@@ -23,5 +23,5 @@
 
 ## 🕐 最後更新
 - 時間：2026-09-12
-- 更新者：OpenCode @ DESKTOP-BN0QO3M
+- 更新者：Codex @ DESKTOP-BN0QO3M（專案初始化檢查完成）
 - Git push：✅ 已推（收工同步完成，6-1／6-2 改版已進 repo）
