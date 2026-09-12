@@ -17,18 +17,19 @@
 ```
 2026math-website2/
 ├── index.html（首頁，約 231KB，課程入口）
-├── 1-1/（ch0.js～ch9.js，單元教材）
-├── 1-2/（ch0.js～ch9.js，單元教材）
-├── 2-1/（ch0.js～ch10.js，單元教材）
-├── 2-2/（ch0.js～ch10.js，單元教材）
-├── 3-1/（ch0.js～ch9.js，單元教材）
-├── 3-2/（ch0.js～ch9.js，單元教材）
-├── 4-1/（ch1.js～ch10.js，單元教材）
-├── 4-2/（ch1.js～ch10.js，單元教材）
-├── 5-1/（ch1.js～ch10.js，單元教材）
-├── 5-2/（ch1.js～ch10.js，單元教材）
-├── 6-1/（ch1.js～ch9.js＋engine.js，單元教材）
-└── 6-2/（ch1.js～ch6.js＋engine.js＋index.html＋style.css＋svg.js，結構較完整，疑似新版範本）
+├── AGENTS.md（專案藍圖）＋handoff.md（交接檔）＋.gitignore
+├── 1-1/（index.html＋engine.js＋style.css＋svg.js＋ch0.js～ch9.js）
+├── 1-2/（index.html＋engine.js＋style.css＋svg.js＋ch0.js～ch9.js）
+├── 2-1/（index.html＋engine.js＋style.css＋svg.js＋ch0.js～ch10.js）
+├── 2-2/（index.html＋engine.js＋style.css＋svg.js＋ch0.js～ch10.js）
+├── 3-1/（index.html＋engine.js＋style.css＋svg.js＋ch0.js～ch9.js）
+├── 3-2/（index.html＋engine.js＋style.css＋svg.js＋ch0.js～ch9.js）
+├── 4-1/（index.html＋engine.js＋style.css＋svg.js＋ch1.js～ch10.js＋m4-1-activities.js）
+├── 4-2/（index.html＋engine.js＋style.css＋svg.js＋ch1.js～ch10.js＋m4-2-activities.js）
+├── 5-1/（index.html＋engine.js＋style.css＋svg.js＋ch1.js～ch10.js＋m5-activities.js）
+├── 5-2/（index.html＋engine.js＋style.css＋svg.js＋ch1.js～ch10.js＋m5-2-activities.js）
+├── 6-1/（index.html＋engine.js＋style.css＋svg.js＋ch1.js～ch9.js）
+└── 6-2/（index.html＋engine.js＋style.css＋svg.js＋ch1.js～ch6.js）
 ```
 
 ## 同步層級（本專案初始化至第 3 層級）
@@ -36,8 +37,8 @@
 | 層級 | 平台 | 位置 | 讀取時機 |
 |------|------|------|---------|
 | L1 | 本地（雲端硬碟資料夾） | `AGENTS.md`＋`handoff.md` | 每個 session |
-| L2 | GitHub | 建置中（repo 名：2026math-website2，私有） | 指定時 |
-| L3 | Obsidian | 建置中（資料夾名：2026math-website2） | 有需要時 |
+| L2 | GitHub | xa7515-crypto/2026math-website2（私有） | 指定時 |
+| L3 | Obsidian | 2026math-website2/專案工作流程.md | 有需要時 |
 
 ## 工作約定
 - 任何 Agent、任何電腦：**開工先讀 `handoff.md`，收工必更新 `handoff.md`**
