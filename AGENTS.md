@@ -11,13 +11,14 @@
 
 ## 目標與路線圖
 - [ ] 階段一：確認 12 個單元內容完整可跑（首頁＋各單元頁面開啟無報錯）
-- [ ] 階段二：部署上線（選定 Netlify／Cloudflare Pages／GitHub Pages 其中之一並給出公開網址）
+- [x] 階段二：部署上線（Netlify，公開網址 https://2026math-website2.netlify.app，可印 QR Code）
 
 ## 資料夾結構
 ```
 2026math-website2/
 ├── index.html（首頁，約 231KB，課程入口）
 ├── AGENTS.md（專案藍圖）＋handoff.md（交接檔）＋.gitignore
+├── .nojekyll（歷史遺留：曾嘗試 GitHub Pages，現部署走 Netlify CLI，此檔無作用但保留無妨）
 ├── 1-1/（index.html＋engine.js＋style.css＋svg.js＋ch0.js～ch9.js）
 ├── 1-2/（index.html＋engine.js＋style.css＋svg.js＋ch0.js～ch9.js）
 ├── 2-1/（index.html＋engine.js＋style.css＋svg.js＋ch0.js～ch10.js）
@@ -45,6 +46,12 @@
 - 修改共用檔案前先讀最新內容，避免覆蓋其他 Agent 的變更
 - 所有回應與文件使用繁體中文
 - 修改前先確認計畫，優先保留原有資料結構
+
+## 部署約定（Netlify CLI，非 GitHub 連動）
+- 本站走 CLI 手動部署，`git push` **不會**自動上線（repo 沒接 GitHub 連動）
+- 更新流程：`netlify deploy --dir=.` 先看草稿 → 確認才 `netlify deploy --prod --dir=.`
+- 正式發布（`--prod`）扣 15 點／次，每月約 20 次上限，**做之前必須先問使用者**
+- 草稿網址每次都不同、**不可印 QR Code**；能印的只有 https://2026math-website2.netlify.app
 
 ## 安全與隱私（不可違反）
 - **不把 API key、密碼、憑證寫進 repo**，也不要貼進 `AGENTS.md`／`handoff.md`；一律放 `.env` 並列入 `.gitignore`
